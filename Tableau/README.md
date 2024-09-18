@@ -1,51 +1,42 @@
-# Nettoyage et Préparation des Données : Licenciements dans les Big Tech
+# Dashboard Airbnb : Analyse des Prix des Locations à Paris
+
+## Dashboard
+lien: https://public.tableau.com/app/profile/kitsada.sathong/viz/Airbnb_Dashboard_17266771837320/Dashboard1?publish=yes
 
 ## Introduction
 
-Ce projet vise à nettoyer et préparer un dataset issu de Kaggle portant sur les licenciements au sein des grandes entreprises technologiques. L'objectif est d'obtenir un jeu de données de haute qualité, prêt à être utilisé pour des analyses approfondies, de la visualisation de données ou de la narration de données.
+Ce projet présente un tableau de bord interactif réalisé avec Tableau, conçu pour aider les particuliers souhaitant mettre en location leur logement à Paris. En s'appuyant sur un dataset de locations Airbnb entre décembre 2023 et décembre 2024 provenant de Inside Airbnb, ce dashboard fournit une vue d'ensemble des prix moyens de location en fonction de la capacité d'accueil et de la localisation.
 
 ## Dataset
 
-- Origine: Kaggle
-- Thématique: Licenciements dans les Big Tech
-- Objectif du nettoyage:
-- Normalisation et standardisation des données
-- Correction des erreurs et anomalies
-- Suppression des doublons et des valeurs manquantes
+- Origine: Inside Airbnb
+-Période: Décembre 2023 - Décembre 2024
+- Géographie: Paris
+- Contenu: Informations détaillées sur les annonces Airbnb à Paris (prix, capacité, localisation, etc.)ntes
 
 ## Outils Utilisés
 
-- MySQL: Système de gestion de bases de données relationnelles utilisé pour stocker, manipuler et nettoyer les données.
+-Tableau: Logiciel de visualisation de données utilisé pour créer le dashboard interactif.
+-Inside Airbnb: Plateforme fournissant des données ouvertes sur les locations Airbnb.
 
-## Processus de Nettoyage
+## Fonctionnalités du Dashboard
 
-- Importation des données:
-- Chargement du dataset dans une base de données MySQL.
-- Exploration des données:
-- Analyse de la structure des données (types de colonnes, valeurs uniques).
-- Identification des erreurs potentielles (valeurs aberrantes, incohérences).
-- Nettoyage des données:
-  - Correction des erreurs de format: Uniformisation des formats de dates, de nombres, etc.
-  - Traitement des valeurs manquantes: Suppression ou imputation des valeurs manquantes en fonction de leur importance.
-  - Suppression des doublons: Identification et suppression des enregistrements dupliqués.
-  - Normalisation et standardisation: Mise en œuvre de techniques de normalisation et de standardisation pour rendre les données comparables.
-  - Création de nouvelles variables:
-  - Calcul de nouvelles variables pertinentes pour l'analyse (e.g., taux de licenciement par entreprise).
-- Exportation des données nettoyées: Exportation des données nettoyées dans un format adapté à l'analyse ultérieure (CSV, Excel, etc.).
+- Analyse des prix par capacité d'accueil
+- Cartes géographiques montrant la répartition des prix par localisations.
+- Évolution des prix moyens par mois.
 
-## Résultats Attendus
+## Utilisation
 
-- Un dataset propre et structuré, prêt à être utilisé pour :
-- Visualisation de données: Création de graphiques et de tableaux de bord pour explorer les données de manière interactive.
-- Data storytelling: Construction de narratifs convaincants à partir des données pour communiquer les résultats de l'analyse.
-- Modélisation prédictive: Entraînement de modèles de machine learning pour prédire de futurs événements.
+- Les propriétaires: Pour fixer un prix de location compétitif et optimiser leurs revenus.
+- Les futurs locataires: Pour comparer les prix et choisir le logement qui correspond à leur budget.
+- Les investisseurs: Pour évaluer le potentiel locatif d'un bien à Paris.
 
 ## Limitations
 
-- Qualité des données initiales: La qualité du dataset source peut influencer la qualité des résultats.
-- Choix des méthodes de nettoyage: Les choix méthodologiques peuvent avoir un impact sur les résultats finaux.
+- Données ouvertes: Les données d'Inside Airbnb peuvent présenter certaines limites en termes de précision et de couverture.
+- Généralisation: Les résultats obtenus sont une estimation et peuvent varier en fonction de facteurs spécifiques à chaque logement.finaux.
   
 ## Perspectives
 
-- Enrichissement du dataset: Intégration de données supplémentaires pour une analyse plus approfondie.
-- Analyse avancée: Réalisation d'analyses statistiques et de modélisation prédictive.
+- Enrichissement du dashboard: Intégration de nouvelles données (notes des voyageurs, équipements, etc.) pour une analyse plus approfondie.
+- Prédictions: Développement de modèles prédictifs pour estimer les prix futurs.
